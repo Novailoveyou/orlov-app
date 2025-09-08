@@ -4,8 +4,8 @@ import 'client-only'
 import { cn } from '@/shared/lib/utils'
 import NextLink from 'next/link'
 import { ComponentProps } from 'react'
-import { ym } from '@/shared/components/analytics'
-import { paragraphVariants } from './typography/p'
+import { ym } from '@/shared/components/general/analytics'
+import { paragraphVariants } from '../typography/p'
 
 const HTTPS = 'https://'
 

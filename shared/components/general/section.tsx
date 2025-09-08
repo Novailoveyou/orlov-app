@@ -27,7 +27,7 @@ export function Section({
       id={id}
       className={cn(
         sectionVariants({
-          className: cn('', className),
+          className,
         }),
       )}>
       {children}

@@ -4,10 +4,10 @@ import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/shared/components/providers/theme-provider'
 import { Toaster } from '@/shared/components/ui/sonner'
-import { Header } from '@/shared/components/header'
-import { Footer } from '@/shared/components/footer'
+import { Header } from '@/shared/components/general/header'
+import { Footer } from '@/shared/components/general/footer'
 import './globals.css'
-import { Analytics } from '@/shared/components/analytics'
+import { Analytics } from '@/shared/components/general/analytics'
 import {
   CONTACT_EMAIL,
   CONTACT_PHONE,

@@ -1,5 +1,6 @@
 import 'server-only'
+import { HomeView } from '@/views/HomeView'
 
 export default function Home() {
-  return <>Home</>
+  return <HomeView />
 }

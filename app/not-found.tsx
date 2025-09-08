@@ -1,7 +1,7 @@
 import 'server-only'
-import { Container } from '@/shared/components/container'
-import { Section } from '@/shared/components/section'
-import { Link } from '@/shared/components/link'
+import { Container } from '@/shared/components/general/container'
+import { Section } from '@/shared/components/general/section'
+import { Link } from '@/shared/components/general/link'
 import { H2 } from '@/shared/components/typography/h2'
 import { H1 } from '@/shared/components/typography/h1'
 

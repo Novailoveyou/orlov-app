@@ -1,8 +1,8 @@
 'use client'
 
-import { Container } from '@/shared/components/container'
-import { Section } from '@/shared/components/section'
-import { Link } from '@/shared/components/link'
+import { Container } from '@/shared/components/general/container'
+import { Section } from '@/shared/components/general/section'
+import { Link } from '@/shared/components/general/link'
 
 export default function Error({}: {
   error: Error & { digest?: string }
